@@ -1,0 +1,53 @@
+
+
+  #toprow, h1, h2, #bottomrow { background-color: white; 
+  								color: teal; 
+  								text-align: center; 
+  								}
+  #bottomrow { padding-top: 3em; }
+  
+  a:link.hf-button-icon { 	filter: grayscale(100); 
+  						text-decoration: none;
+  						}
+  a:hover.hf-button-icon { filter: grayscale(0); 
+  						text-shadow: -0.05em 0.08em #aaa; 
+  						}
+  a:active.hf-button-icon { 	filter: grayscale(0); 
+  							text-shadow: -0.05em 0.08em #aaa; 
+  							}
+  							
+  a:link.hf-button-icon-2 { 	filter: grayscale(100); 
+  							text-decoration: none;
+  							}
+  a:hover.hf-button-icon-2 { filter: grayscale(0); 
+  							text-shadow: -0.05em 0.08em #aaa; 
+  							}
+  a:active.hf-button-icon-2 { 	filter: grayscale(0); 
+  								text-shadow: -0.05em 0.08em #aaa;
+  								}
+
+  .hf-button-box { 	border: 0.75em solid teal; 
+  					border-radius: 40px;  
+  					min-height: 8em; 
+  					vertical-align: center; 
+  					box-shadow: -5px 8px lightgrey;
+  					background-color: #eee; 
+  					}
+  					  
+  .hf-button-box-2 { 	border: 0.2em solid teal; 
+  						border-radius: 20px;  
+  						min-height: 4em; 
+  						box-shadow: -5px 8px lightgrey; 
+  						background-color: #eee; 
+  						padding: 0.1em 2em; 
+  						text-align: left;
+  						}
+  						
+  .hf-button-label-text { font-size: 1.5em; margin-left: 1em; }
+  .hf-button-label-text-2 { font-size: 1.5em; margin-left: 1em; }
+
+  .hf-emoji { font-size: 3em; color: teal;}  
+  .hf-emoji-2 { font-size: 1.75em; color: teal;}
+  
+  
+ 
