@@ -26,7 +26,7 @@
   								text-shadow: -0.05em 0.08em #aaa;
   								}
 
-  .hf-button-box { 	border: 0.75em solid teal; 
+  .hf-button-box { 	border: 0.75em solid #00205B; 
   					border-radius: 40px;  
   					min-height: 8em; 
   					vertical-align: center; 
@@ -34,7 +34,7 @@
   					background-color: #eee; 
   					}
   					  
-  .hf-button-box-2 { 	border: 0.2em solid teal; 
+  .hf-button-box-2 { 	border: 0.2em solid #00205B; 
   						border-radius: 20px;  
   						min-height: 4em; 
   						box-shadow: -5px 8px lightgrey; 
@@ -46,8 +46,8 @@
   .hf-button-label-text { font-size: 1.5em; margin-left: 1em; }
   .hf-button-label-text-2 { font-size: 1.5em; margin-left: 1em; }
 
-  .hf-emoji { font-size: 3em; color: teal;}  
-  .hf-emoji-2 { font-size: 1.75em; color: teal;}
+  .hf-emoji { font-size: 3em; color: #00205B;}  
+  .hf-emoji-2 { font-size: 1.75em; color: #00205B;}
   
   
 h1 { background-color: #00205B; color: white; }
