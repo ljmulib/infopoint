@@ -40,12 +40,13 @@
   								text-shadow: -0.05em 0.08em #aaa;
   								}
 
-  .hf-button-box { 	border: 0.75em solid #00205B; 
-  					border-radius: 40px;  
+  .hf-button-box { 	
   					min-height: 8em; 
   					vertical-align: center; 
-  					box-shadow: -5px 8px lightgrey;
-  					background-color: #eee; 
+          /* border: 0.75em solid #00205B;  */
+          /* 		border-radius: 40px;   */
+  				/*	box-shadow: -5px 8px lightgrey; */
+  				/*	background-color: #eee;  */
   					}
   					  
   .hf-button-box-2 { 	border: 0.2em solid #00205B; 
@@ -65,3 +66,6 @@
   
   
 h1 { background-color: #1a3174; color: white; }
+.button-image { width: 100%; } 
+
+
