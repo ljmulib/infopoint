@@ -1,17 +1,15 @@
 
-  body { background-image: url("img/1x1.png"); 
+  body { background-image: url(img/1x1.png); 
          background-color: white; 
          background-repeat: no-repeat; 
-         background-position: center top; 
+         background-position: 0 0; 
          background-size: 4000px 60px;
-    width: 100%;
   }
 
 
   #toprow, h1, h2, #bottomrow { background-color: white; 
   								color: teal; 
   								text-align: center; 
-    width: 100%;
   								}
 
   #ljmulogo { align: left; 
