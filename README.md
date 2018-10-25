@@ -1,4 +1,4 @@
-# ljmulib-infopoint
+# ljmulib/infopoint
 Code and resources for Infopoint screen
 
-Code deployed at https://onothimagen.github.io/ljmulib-infopoint/
+Code deployed at https://ljmulib.github.io/infopoint/
