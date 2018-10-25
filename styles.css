@@ -1,12 +1,4 @@
 
-  body { background-image: url(img/1x1.png); 
-         background-color: white; 
-         background-repeat: no-repeat; 
-         background-position: 0 0; 
-         background-size: 4000px 60px;
-  }
-
-
   #toprow, h1, h2, #bottomrow { background-color: white; 
   								color: teal; 
   								text-align: center; 
@@ -20,52 +12,27 @@
   #bottomrow { padding-top: 3em; }
 
   
-  a:link.hf-button-icon { 	filter: grayscale(100); 
+  a:link.button-icon { 	filter: grayscale(100); 
   						text-decoration: none;
   						}
-  a:hover.hf-button-icon { filter: grayscale(0); 
+  a:hover.button-icon { filter: grayscale(0); 
   						text-shadow: -0.05em 0.08em #aaa; 
   						}
-  a:active.hf-button-icon { 	filter: grayscale(0); 
+  a:active.button-icon { 	filter: grayscale(0); 
   							text-shadow: -0.05em 0.08em #aaa; 
   							}
-  							
-  a:link.hf-button-icon-2 { 	filter: grayscale(100); 
-  							text-decoration: none;
-  							}
-  a:hover.hf-button-icon-2 { filter: grayscale(0); 
-  							text-shadow: -0.05em 0.08em #aaa; 
-  							}
-  a:active.hf-button-icon-2 { 	filter: grayscale(0); 
-  								text-shadow: -0.05em 0.08em #aaa;
-  								}
 
-  .hf-button-box { 	
+  .button-box { 	
   					min-height: 8em; 
   					vertical-align: center; 
-          /* border: 0.75em solid #00205B;  */
-          /* 		border-radius: 40px;   */
-  				/*	box-shadow: -5px 8px lightgrey; */
-  				/*	background-color: #eee;  */
-  					}
-  					  
-  .hf-button-box-2 { 	border: 0.2em solid #00205B; 
-  						border-radius: 20px;  
-  						min-height: 4em; 
-  						box-shadow: -5px 8px lightgrey; 
-  						background-color: #eee; 
-  						padding: 0.1em 2em; 
-  						text-align: left;
-  						}
-  						
-  .hf-button-label-text { font-size: 1.5em; margin-left: 1em; }
-  .hf-button-label-text-2 { font-size: 1.5em; margin-left: 1em; }
+          /* border: 0.75em solid #00205B; border-radius: 40px; box-shadow: -5px 8px lightgrey;	background-color: #eee;  */
+   }
+  					    						
+  .button-label-text { font-size: 1.5em; margin-left: 1em; }
 
-  .hf-emoji { font-size: 3em; color: #00205B;}  
-  .hf-emoji-2 { font-size: 1.75em; color: #00205B;}
-  
-  
-h1 { background-color: #1a3174; color: white; }
-.button-image { width: 100%; } 
+  .emoji { font-size: 3em; color: #00205B;}  
+
+  h1 { background-color: #1a3174; color: white; width: 100%; }
+  .button-image { width: 100%; } 
 
 
