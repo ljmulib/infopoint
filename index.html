@@ -4,27 +4,27 @@
  		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
  		<title>Information Point: Materialize</title>
-        <link rel="icon" href="img/favicon.ico"/>
+        	<link rel="icon" href="img/favicon.ico"/>
   		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  		<link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  		<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-      	<script type="text/javascript">
+  		<link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen"/>
+  		<link href="css/style.css" type="text/css" rel="stylesheet" media="screen"/>
+      		<script>
       	
         		function searchPrimo() {
             		document.getElementById("primoQuery").value = "any,contains," + 
             			document.getElementById("primoQueryTemp").value.replace(/[,]/g, " ");
             		document.forms["searchForm"].submit();
         		}
-    	</script>
+    		</script>
 	</head>
 	<body class="indigo darken-3">
 	
 	    <!-- START NAVIGATION BAR -->
-  		<nav class="indigo darken-3" role="navigation" >
+  		<nav class="indigo darken-3">
     		<div class="nav-wrapper container" style="width: 90%;">
     	    	<a id="logo-container" href="https://www.ljmu.ac.uk/library" class="LJMU">
-    	    		<img src="img/ljmulogo.png" style="height: 65px; padding: 0.5em 0" alt="LJMU" style="float: left;"//>
-    	    		<img src="img/library.png" style="height: 65px; padding: 0.5em 0" alt="Library" style="float: left;"/>
+    	    		<img src="img/ljmulogo.png" style="height: 65px; padding: 0.5em 0; float: left;" alt="LJMU" />
+    	    		<img src="img/library.png" style="height: 65px; padding: 0.5em 0; float: left;" alt="Library" />
     	    	</a>		
     		</div>
   		</nav>
@@ -85,7 +85,7 @@
   		    			<div class="col s12 m2"> 
                				<div class="card">
                  				<div class="card-image">
-                    				<img src="img/findapc.png"/>
+                    				<img src="img/findapc.png" alt="Find a PC"/>
                  				</div>
                  				<div class="card-content">
                    					<span class="card-title">Find a <br/>PC</span>
@@ -97,7 +97,7 @@
   		    			<div class="col s12 m2"> 
                				<div class="card">
                  				<div class="card-image">
-                    				<img src="img/bookapc.png"/>
+                    				<img src="img/bookapc.png" alt="Book a PC"/>
                  				</div>
                  				<div class="card-content">
                    					<span class="card-title">Book a <br/>PC</span>
@@ -109,7 +109,7 @@
   		    			<div class="col s12 m2"> 
                				<div class="card">
                  				<div class="card-image">
-                    				<img src="img/bookaroom.png"/>
+                    				<img src="img/bookaroom.png" alt="Book a Room"/>
                  				</div>
                  				<div class="card-content">
                    					<span class="card-title">Book a <br/>Room</span>
@@ -121,7 +121,7 @@
   		    			<div class="col s12 m2"> 
                				<div class="card">
                  				<div class="card-image">
-                    				<img src="img/libraryfaqs.png"/>
+                    				<img src="img/libraryfaqs.png" alt="Library FAQs"/>
                  				</div>
                  				<div class="card-content">
                    					<span class="card-title">Library <br/>FAQs</span>
@@ -133,7 +133,7 @@
   		    			<div class="col s12 m2"> 
                				<div class="card">
                  				<div class="card-image">
-                    				<img src="img/readinglists.png"/>
+                    				<img src="img/readinglists.png" alt="Reading Lists"/>
                  				</div>
                  				<div class="card-content">
                    					<span class="card-title">Reading <br/>Lists</span>
@@ -169,7 +169,7 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.min.js"></script>
   <script src="js/init.js"></script>
-        	<script type="text/javascript">
+        	<script>
       	
         		function searchPrimo() {
             		document.getElementById("primoQuery").value = "any,contains," + 
