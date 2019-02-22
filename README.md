@@ -5,6 +5,6 @@ This is the active, master version of the Infopoint screen.
 
 Code deployed at https://ljmulib.github.io/infopoint/ which is the address Infopoint terminals should be set to.
 
-http://ljmu.me/infopoint has also been created as a short-link
+
 
 
