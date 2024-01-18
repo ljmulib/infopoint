@@ -172,11 +172,25 @@
   <script src="js/init.js"></script>
         	<script>
       	
-        		function searchPrimo() {
-            		document.getElementById("primoQuery").value = "any,contains," + 
-            			document.getElementById("primoQueryTemp").value.replace(/[,]/g, " ");
-            		document.forms["searchForm"].submit();
-        		}
+        		// function searchPrimo() {
+          //   		document.getElementById("primoQuery").value = "any,contains," + 
+          //   			document.getElementById("primoQueryTemp").value.replace(/[,]/g, " ");
+          //   		document.forms["searchForm"].submit();
+        		// }
+
+			function searchPrimo() {
+        // Construct the search query
+        var query = "any,contains," + document.getElementById("primoQueryTemp").value.replace(/[,]/g, " ");
+        
+        // Set the query value to the hidden input field
+        document.getElementById("primoQuery").value = query;
+
+        // Get the form element by its ID
+        var form = document.getElementById("searchForm");
+
+        // Use the submit() method on the form element to submit the form
+        form.submit();
+    }
         		 
         		M.AutoInit();
         		 
